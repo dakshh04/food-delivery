@@ -1,8 +1,11 @@
 import './App.css';
+import Navbar from './components/navbar';
 
 function App() {
   return (
-    <div className="fs-1">INDEX</div>
+    <div>
+      <div><Navbar/></div>
+    </div>
   );
 }
 
